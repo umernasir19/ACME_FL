@@ -1,0 +1,14 @@
+C:\AKU_DotNetProjects\FEEDBACK-PORTAL ROUTED\ComplainPortal\HrProperty\bin\Debug\HrProperty.dll
+C:\AKU_DotNetProjects\FEEDBACK-PORTAL ROUTED\ComplainPortal\HrProperty\bin\Debug\HrProperty.pdb
+C:\AKU_DotNetProjects\FEEDBACK-PORTAL ROUTED\ComplainPortal\HrProperty\obj\Debug\HrProperty.dll
+C:\AKU_DotNetProjects\FEEDBACK-PORTAL ROUTED\ComplainPortal\HrProperty\obj\Debug\HrProperty.pdb
+C:\AKU_DotNetProjects\FEEDBACK-PORTAL Updated\ComplainPortal\HrProperty\bin\Debug\HrProperty.dll
+C:\AKU_DotNetProjects\FEEDBACK-PORTAL Updated\ComplainPortal\HrProperty\bin\Debug\HrProperty.pdb
+C:\AKU_DotNetProjects\FEEDBACK-PORTAL Updated\ComplainPortal\HrProperty\obj\Debug\HrProperty.dll
+C:\AKU_DotNetProjects\FEEDBACK-PORTAL Updated\ComplainPortal\HrProperty\obj\Debug\HrProperty.pdb
+C:\AKU_DotNetProjects\FEEDBACK-PORTAL Updated\ComplainPortal\HrProperty\obj\Debug\PortalProperty.csprojResolveAssemblyReference.cache
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\HrProperty\bin\Debug\HrProperty.dll
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\HrProperty\bin\Debug\HrProperty.pdb
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\HrProperty\obj\Debug\PortalProperty.csprojResolveAssemblyReference.cache
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\HrProperty\obj\Debug\HrProperty.dll
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\HrProperty\obj\Debug\HrProperty.pdb

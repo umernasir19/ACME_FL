@@ -1,0 +1,5 @@
+C:\AKU_DotNetProjects\ComplainPortal\HrProperty\bin\Release\HrProperty.dll
+C:\AKU_DotNetProjects\ComplainPortal\HrProperty\bin\Release\HrProperty.pdb
+C:\AKU_DotNetProjects\ComplainPortal\HrProperty\obj\Release\HrProperty.dll
+C:\AKU_DotNetProjects\ComplainPortal\HrProperty\obj\Release\HrProperty.pdb
+C:\AKU_DotNetProjects\ComplainPortal\HrProperty\obj\Release\PortalProperty.csprojResolveAssemblyReference.cache
