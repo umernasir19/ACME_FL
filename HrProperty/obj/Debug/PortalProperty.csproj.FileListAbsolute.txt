@@ -12,3 +12,9 @@ C:\Users\umer.nasir.AKU\Desktop\UMER\FL\HrProperty\bin\Debug\HrProperty.pdb
 C:\Users\umer.nasir.AKU\Desktop\UMER\FL\HrProperty\obj\Debug\PortalProperty.csprojResolveAssemblyReference.cache
 C:\Users\umer.nasir.AKU\Desktop\UMER\FL\HrProperty\obj\Debug\HrProperty.dll
 C:\Users\umer.nasir.AKU\Desktop\UMER\FL\HrProperty\obj\Debug\HrProperty.pdb
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FL\FL_MSJD\Solution\ACME_FL\HrProperty\bin\Debug\HrProperty.dll
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FL\FL_MSJD\Solution\ACME_FL\HrProperty\bin\Debug\HrProperty.pdb
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FL\FL_MSJD\Solution\ACME_FL\HrProperty\obj\Debug\PortalProperty.csproj.AssemblyReference.cache
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FL\FL_MSJD\Solution\ACME_FL\HrProperty\obj\Debug\PortalProperty.csproj.CoreCompileInputs.cache
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FL\FL_MSJD\Solution\ACME_FL\HrProperty\obj\Debug\HrProperty.dll
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FL\FL_MSJD\Solution\ACME_FL\HrProperty\obj\Debug\HrProperty.pdb

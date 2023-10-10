@@ -72,3 +72,13 @@ C:\Users\umer.nasir.AKU\Desktop\UMER\FL\DAL\bin\Debug\HrProperty.pdb
 C:\Users\umer.nasir.AKU\Desktop\UMER\FL\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 C:\Users\umer.nasir.AKU\Desktop\UMER\FL\DAL\obj\Debug\DAL.dll
 C:\Users\umer.nasir.AKU\Desktop\UMER\FL\DAL\obj\Debug\DAL.pdb
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FL\FL_MSJD\Solution\ACME_FL\DAL\bin\Debug\DAL.dll.config
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FL\FL_MSJD\Solution\ACME_FL\DAL\bin\Debug\DAL.dll
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FL\FL_MSJD\Solution\ACME_FL\DAL\bin\Debug\DAL.pdb
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FL\FL_MSJD\Solution\ACME_FL\DAL\bin\Debug\HrProperty.dll
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FL\FL_MSJD\Solution\ACME_FL\DAL\bin\Debug\HrProperty.pdb
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FL\FL_MSJD\Solution\ACME_FL\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FL\FL_MSJD\Solution\ACME_FL\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FL\FL_MSJD\Solution\ACME_FL\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FL\FL_MSJD\Solution\ACME_FL\DAL\obj\Debug\DAL.dll
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FL\FL_MSJD\Solution\ACME_FL\DAL\obj\Debug\DAL.pdb

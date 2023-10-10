@@ -70,3 +70,15 @@ C:\Users\umer.nasir.AKU\Desktop\UMER\FL\BLL\bin\Debug\HrProperty.pdb
 C:\Users\umer.nasir.AKU\Desktop\UMER\FL\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
 C:\Users\umer.nasir.AKU\Desktop\UMER\FL\BLL\obj\Debug\BLL.dll
 C:\Users\umer.nasir.AKU\Desktop\UMER\FL\BLL\obj\Debug\BLL.pdb
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FL\FL_MSJD\Solution\ACME_FL\BLL\bin\Debug\BLL.dll
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FL\FL_MSJD\Solution\ACME_FL\BLL\bin\Debug\BLL.pdb
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FL\FL_MSJD\Solution\ACME_FL\BLL\bin\Debug\DAL.dll
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FL\FL_MSJD\Solution\ACME_FL\BLL\bin\Debug\HrProperty.dll
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FL\FL_MSJD\Solution\ACME_FL\BLL\bin\Debug\DAL.pdb
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FL\FL_MSJD\Solution\ACME_FL\BLL\bin\Debug\DAL.dll.config
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FL\FL_MSJD\Solution\ACME_FL\BLL\bin\Debug\HrProperty.pdb
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FL\FL_MSJD\Solution\ACME_FL\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FL\FL_MSJD\Solution\ACME_FL\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FL\FL_MSJD\Solution\ACME_FL\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FL\FL_MSJD\Solution\ACME_FL\BLL\obj\Debug\BLL.dll
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FL\FL_MSJD\Solution\ACME_FL\BLL\obj\Debug\BLL.pdb

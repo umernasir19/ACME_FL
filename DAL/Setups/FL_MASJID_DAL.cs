@@ -50,7 +50,7 @@ namespace DAL.Setups
                 //cmdToExecute.Parameters.AddWithValue("@PageNum", objUserProperty.PageNum);
                 //cmdToExecute.Parameters.AddWithValue("@PageSize", objUserProperty.PageSize);
                 //cmdToExecute.Parameters.AddWithValue("@sortColumn", objUserProperty.SortColumn);
-                cmdToExecute.Parameters.AddWithValue("@Status", objmsjidProperty.Status);
+                //cmdToExecute.Parameters.AddWithValue("@Status", objmsjidProperty.Status);
                 //cmdToExecute.Parameters.Add(new SqlParameter("@TotalRowsNum", SqlDbType.Int, 4, ParameterDirection.Output, true, 10, 0, "", DataRowVersion.Proposed, objmsjidProperty.TotalRowsNum));
 
 
