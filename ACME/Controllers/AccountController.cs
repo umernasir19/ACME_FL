@@ -9,7 +9,7 @@ using BLL.Setups;
 
 namespace ACME.Controllers
 {
-    public class AccountController : Controller
+    public class AccountController : BaseController
     {
         // GET: Account
         User_BLL _objUserBLL;
@@ -34,8 +34,15 @@ namespace ACME.Controllers
                     };
 
                     _objUserBLL = new User_BLL(_objuser);
-                    _objUserBLL.GetUserByIDPass();
-                    return Json(new { Login = flag, statuscode = 400, msg = msg, url = "/Home/Dashboard" }, JsonRequestBehavior.AllowGet);
+                     _objUserBLL.GetUserByIDPass();
+                    if (_objuser.Status == "1")
+                    {
+                        return Json(new { Login = true, statuscode = 200, msg = "Login Successfull", url = "/Dashboard/Dashboard" }, JsonRequestBehavior.AllowGet);
+                    }
+                    else
+                    {
+                        return Json(new { Login = flag, statuscode = 404, msg = msg, url = "/Account/Login" }, JsonRequestBehavior.AllowGet);
+                    }
 
                 }
                 catch (Exception ex)

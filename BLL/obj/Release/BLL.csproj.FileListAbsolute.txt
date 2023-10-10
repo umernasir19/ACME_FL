@@ -52,3 +52,12 @@ C:\AKU_DotNetProjects\FEEDBACK-PORTAL Updated\ComplainPortal\BLL\bin\Release\HrP
 C:\AKU_DotNetProjects\FEEDBACK-PORTAL Updated\ComplainPortal\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
 C:\AKU_DotNetProjects\FEEDBACK-PORTAL Updated\ComplainPortal\BLL\obj\Release\BLL.dll
 C:\AKU_DotNetProjects\FEEDBACK-PORTAL Updated\ComplainPortal\BLL\obj\Release\BLL.pdb
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\BLL\bin\Release\BLL.dll
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\BLL\bin\Release\BLL.pdb
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\BLL\bin\Release\DAL.dll
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\BLL\bin\Release\HrProperty.dll
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\BLL\bin\Release\DAL.pdb
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\BLL\bin\Release\HrProperty.pdb
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\BLL\obj\Release\BLL.dll
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\BLL\obj\Release\BLL.pdb

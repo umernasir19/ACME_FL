@@ -37,3 +37,13 @@ C:\Users\umer.nasir.AKU\Desktop\UMER\FL\ACME\bin\DAL.dll
 C:\Users\umer.nasir.AKU\Desktop\UMER\FL\ACME\bin\BLL.pdb
 C:\Users\umer.nasir.AKU\Desktop\UMER\FL\ACME\bin\HrProperty.pdb
 C:\Users\umer.nasir.AKU\Desktop\UMER\FL\ACME\bin\DAL.pdb
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\ACME\bin\Newtonsoft.Json.dll
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\ACME\bin\System.Net.Http.Formatting.dll
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\ACME\bin\System.Web.Http.dll
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\ACME\bin\System.Web.Http.WebHost.dll
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\ACME\bin\Newtonsoft.Json.xml
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\ACME\bin\System.Net.Http.Formatting.xml
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\ACME\bin\System.Web.Http.xml
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\ACME\bin\System.Web.Http.WebHost.xml
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\ACME\bin\Swashbuckle.Core.dll
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\ACME\bin\WebActivatorEx.dll

@@ -270,8 +270,8 @@ namespace DAL.Setups
 
                 if (toReturn.Rows.Count > 0)
                 {
-                    objUserProperty.ID = (Int32)toReturn.Rows[0]["U_ID"];
-                    objUserProperty.UserName = toReturn.Rows[0]["User_Name"].ToString();
+                    objUserProperty.ID = (Int32)toReturn.Rows[0]["ID"];
+                    objUserProperty.UserName = toReturn.Rows[0]["UserName"].ToString();
                     //objUserProperty. = (Int32)toReturn.Rows[0]["roleId"];
                     objUserProperty.Status = toReturn.Rows[0]["Status"].ToString();
                     // objUserProperty.InsertionDate = toReturn.Rows[0]["insertionDate"] == System.DBNull.Value ? SqlDateTime.Null : (DateTime)toReturn.Rows[0]["insertionDate"];

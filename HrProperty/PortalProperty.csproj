@@ -42,9 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\FL_Masjid.cs" />
     <Compile Include="Models\LoginProperty.cs" />
     <Compile Include="Models\ParentChild.cs" />
     <Compile Include="Models\QueryProperty.cs" />
+    <Compile Include="Models\ResponseClass.cs" />
     <Compile Include="Models\User_Property.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SessionManager.cs" />

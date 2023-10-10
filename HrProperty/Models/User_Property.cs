@@ -255,6 +255,8 @@ namespace HrProperty.Models
         }
 
         public int EmpID { get; set; }
+
+        public DateTime? LastModified { get; set; }
         #endregion
     }
 }

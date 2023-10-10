@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Setups\MASJID_BLL.cs" />
     <Compile Include="Setups\Query_BLL.cs" />
     <Compile Include="Setups\User_BLL.cs" />
   </ItemGroup>

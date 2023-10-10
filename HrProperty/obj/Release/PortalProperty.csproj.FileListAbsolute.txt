@@ -3,3 +3,8 @@ C:\AKU_DotNetProjects\ComplainPortal\HrProperty\bin\Release\HrProperty.pdb
 C:\AKU_DotNetProjects\ComplainPortal\HrProperty\obj\Release\HrProperty.dll
 C:\AKU_DotNetProjects\ComplainPortal\HrProperty\obj\Release\HrProperty.pdb
 C:\AKU_DotNetProjects\ComplainPortal\HrProperty\obj\Release\PortalProperty.csprojResolveAssemblyReference.cache
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\HrProperty\bin\Release\HrProperty.dll
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\HrProperty\bin\Release\HrProperty.pdb
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\HrProperty\obj\Release\PortalProperty.csprojResolveAssemblyReference.cache
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\HrProperty\obj\Release\HrProperty.dll
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\HrProperty\obj\Release\HrProperty.pdb

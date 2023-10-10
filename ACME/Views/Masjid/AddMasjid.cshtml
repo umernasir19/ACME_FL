@@ -1,0 +1,65 @@
+﻿@model HrProperty.Models.FL_MASJID
+@{
+    Layout = null;
+}
+<div class="card-body">
+    @*<form role="form" id="formaddtype">*@
+    @using (Ajax.BeginForm("AddUpdate", "Masjid", FormMethod.Post, new AjaxOptions { OnSuccess = "OnSuccess", OnFailure = "OnFailure" }))
+    {
+        <div class="row">
+            <div class="col-sm-6">
+                <!-- text input -->
+                <div class="form-group">
+                    <label>Name:</label>
+                    @Html.EditorFor(model => model.Masjid_Title, new { htmlAttributes = new { @placeholder = " Name", @class = "form-control" } })
+                    @*<input type="text"  class="form-control" placeholder="@ViewBag.CustomerCode" disabled>*@
+                </div>
+                @Html.ValidationMessageFor(model => model.Masjid_Title, "", new { @class = "text-danger" })
+
+
+            </div>
+            <div class="col-sm-6">
+                <!-- text input -->
+                <div class="form-group">
+                    <label>Location :</label>
+                    @Html.TextAreaFor(model => model.Masjid_Location, new { htmlAttributes = new { @placeholder = "Location", @class = "form-control" } })
+                    @*<input type="text"  class="form-control" placeholder="@ViewBag.CustomerCode" disabled>*@
+                </div>
+                @Html.ValidationMessageFor(model => model.Masjid_Location, "", new { @class = "text-danger" })
+
+
+            </div>
+            @Html.HiddenFor(model => model.MAsjid_ID)
+
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <!-- text input -->
+                <div class="form-group">
+                    <label>Description:</label>
+                    @Html.TextAreaFor(model => model.Masjid_Descr, new { htmlAttributes = new { @placeholder = "Description", @class = "form-control" } })
+                   
+                </div>
+              
+
+
+            </div>
+
+
+        </div>
+        <div class="card-footer justify-content-between">
+            <div class="row col-md-12">
+
+                <div class="col-md-12">
+                    <div class="float-right">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <input type="submit" value="Submit" class="btn btn-primary" />
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    }
+
+</div>
