@@ -15,7 +15,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ACME</RootNamespace>
     <AssemblyName>ACME</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
@@ -1796,12 +1796,17 @@
     <Compile Include="App_Start\SwaggerConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\ArticleController.cs" />
     <Compile Include="Controllers\AzkarController.cs" />
     <Compile Include="Controllers\BaseApiController.cs" />
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\DashboardController.cs" />
+    <Compile Include="Controllers\EventsController.cs" />
     <Compile Include="Controllers\MasjidApiController.cs" />
     <Compile Include="Controllers\MasjidController.cs" />
+    <Compile Include="Controllers\NamazController.cs" />
+    <Compile Include="Controllers\NewsController.cs" />
+    <Compile Include="Controllers\ProjectsController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -1821,6 +1826,16 @@
     <Content Include="Views\Masjid\Masjid.cshtml" />
     <Content Include="Views\Masjid\AddMasjid.cshtml" />
     <Content Include="Views\Dashboard\Dashboard.cshtml" />
+    <Content Include="Views\Azkar\Azkar.cshtml" />
+    <Content Include="Views\Azkar\_AddAzkar.cshtml" />
+    <Content Include="Views\Namaz\Namaz.cshtml" />
+    <Content Include="Views\Namaz\_AddNamaz.cshtml" />
+    <Content Include="Views\Events\Events.cshtml" />
+    <Content Include="Views\Events\_AddEvent.cshtml" />
+    <Content Include="Views\Projects\_AddProjects.cshtml" />
+    <Content Include="Views\Projects\Projects.cshtml" />
+    <Content Include="Views\Article\Article.cshtml" />
+    <Content Include="Views\Article\_AddArticle.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -1831,8 +1846,8 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\Azkar\" />
     <Folder Include="Views\Base\" />
+    <Folder Include="Views\News\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BLL\BLL.csproj">

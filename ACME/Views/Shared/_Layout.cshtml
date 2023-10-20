@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>FeedBack Portal| Dashboard</title>
+    <title>ACME Portal| Dashboard</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Font Awesome -->
@@ -105,6 +105,23 @@
             <!-- Control sidebar content goes here -->
         </aside>
         <!-- /.control-sidebar -->
+    </div>
+
+    <div id="ConfirmModal" class="modal">
+        <div class="modal-dialog">
+            <div class="modal-content bg-warning">
+                <div class="modal-header">
+                    <h5>Delete</h5>
+                </div>
+                <div class="modal-body text-center">
+                    <b>Are you sure to delete?</b>
+                </div>
+                <div class="modal-footer  text-md-center">
+                    <input href="" type="button" id="deleteLink" class="btn btn-success" value="Yes" />
+                    <input type="button" class="btn btn-danger" value="No" onclick="$('#ConfirmModal').hide();" />
+                </div>
+            </div>
+        </div>
     </div>
     <!-- ./wrapper -->
     <!-- jQuery -->

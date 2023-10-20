@@ -98,10 +98,10 @@
     <script>
         var rtprfx;
         $(document).ready(function (e) {
-            document.cookie = "routeprefix=/aems_reporting/";
+            @*document.cookie = "routeprefix=/aems_reporting/";
             localStorage.setItem("routeprefix", "");
             rtprfx = localStorage.getItem("routeprefix");
-            //rtprfx=@Session["routeprefix"];
+            //rtprfx=@Session["routeprefix"];*@
         });
 
         $(document).on('keypress', function (e) {
@@ -131,7 +131,7 @@
             if ($(form).valid()) {
                 $.ajax({
                     type: "POST",
-                    url: rtprfx + "/Account/Login",
+                    url: "/Account/Login",
                     data: $(form).serialize(),
                     //cache : false,
                     //processData: false,
@@ -156,7 +156,7 @@
                                 "showMethod": "fadeIn",
                                 "hideMethod": "fadeOut"
                             }
-                            window.location.href = rtprfx + res.url;
+                            window.location.href = res.url;
                         }
                         else if (res.Login==false) {
                             Command: toastr["error"](res.msg, "Login Failed")

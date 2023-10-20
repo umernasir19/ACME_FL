@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HrProperty.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -16,7 +17,8 @@ namespace ACME.Controllers
 
         public ActionResult AddAzkar()
         {
-            return View();
+            FL_MASJID objflmsjd = new FL_MASJID();
+            return PartialView("_AddAzkar", objflmsjd);
         }
     }
 }
