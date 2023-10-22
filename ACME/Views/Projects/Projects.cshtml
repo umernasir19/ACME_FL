@@ -265,5 +265,19 @@
             $('#ConfirmModal').show();
         }
 
+        function ShowProduct(ID) {
+            //showLoading();
+            var url = "/Projects/AddProjects?Id=" + 1;
+
+            $("#Masjdadmodelbody").load(url, function (e) {
+                var id = $('#MAsjid_ID').val();
+                if (id > 0) {
+                    $('#btnsavemasjid').html("update ");
+                }
+                $("#AddMasjidModel").modal("show");
+                // hideLoading();
+            });
+        }
+
     </script>
 }

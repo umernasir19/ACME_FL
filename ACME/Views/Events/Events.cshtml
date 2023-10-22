@@ -264,6 +264,32 @@
             });
             $('#ConfirmModal').show();
         }
+        function ViewEdit(ID) {
+            //showLoading();
+            var url = "/Event/AddEvent?Id=" + 1;
 
+            $("#Masjdadmodelbody").load(url, function (e) {
+                var id = $('#MAsjid_ID').val();
+                if (id > 0) {
+                    $('#btnsavemasjid').html("update ");
+                }
+                $("#AddMasjidModel").modal("show");
+                // hideLoading();
+            });
+        }
+
+        function ShowProduct(ID) {
+            //showLoading();
+            var url = "/Events/AddEvent?Id=" + 1;
+
+            $("#Masjdadmodelbody").load(url, function (e) {
+                var id = $('#MAsjid_ID').val();
+                if (id > 0) {
+                    $('#btnsavemasjid').html("update ");
+                }
+                $("#AddMasjidModel").modal("show");
+                // hideLoading();
+            });
+        }
     </script>
 }

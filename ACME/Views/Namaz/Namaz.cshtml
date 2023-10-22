@@ -267,7 +267,19 @@
             });
             $('#ConfirmModal').show();
         }
+        function ShowProduct(ID) {
+            //showLoading();
+            var url = "/Namaz/AddNamaz?Id=" + 1;
 
+            $("#Namazdmodelbody").load(url, function (e) {
+                var id = $('#MAsjid_ID').val();
+                if (id > 0) {
+                    $('#btnsavemasjid').html("update ");
+                }
+                $("#AddnamazModel").modal("show");
+                // hideLoading();
+            });
+        }
 
     </script>
 }

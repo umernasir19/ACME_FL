@@ -37,6 +37,18 @@ namespace ACME.Controllers
         public ActionResult AddMasjid(int? id)
         {
             FL_MASJID objmsjidprop = new FL_MASJID();
+            if (id > 0)
+            {
+                objmsjidprop.MAsjid_ID = 1;
+                objmsjidprop.Masjid_Location = "New York";
+                objmsjidprop.Masjid_Title = "New Masjid";
+                objmsjidprop.Masjid_Lat = Convert.ToDecimal(1.2);
+                objmsjidprop.Masjid_Lon = Convert.ToDecimal(1.2);
+                objmsjidprop.Masjid_Descr = "Description Of Masjid";
+                objmsjidprop.Masjid_Location = "New York";
+                objmsjidprop.Rating = Convert.ToDecimal(4);
+
+            }
             return PartialView("AddMasjid", objmsjidprop);
 
         }

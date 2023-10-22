@@ -23,8 +23,47 @@
             <div class="col-sm-12">
                 <!-- text input -->
                 <div class="form-group">
+                    <label>Azkar Sorat Arabic:</label>
+                    <textarea class="form-control" cols="12"></textarea>
+                  @*  @Html.EditorFor(model => model.Masjid_Title, new { htmlAttributes = new { @placeholder = " Name", @class = "form-control" } })*@
+                    @*<input type="text"  class="form-control" placeholder="@ViewBag.CustomerCode" disabled>*@
+                </div>
+                @Html.ValidationMessageFor(model => model.Masjid_Title, "", new { @class = "text-danger" })
+
+
+            </div>
+        </div>
+        <div class="row">
+            
+            <div class="col-sm-6">
+                <!-- text input -->
+                <div class="form-group">
+                    <label>Azkar English Meaning:</label>
+                    @Html.EditorFor(model => model.Masjid_Location, new { htmlAttributes = new { @placeholder = " Name", @class = "form-control" } })
+                    @*<input type="text"  class="form-control" placeholder="@ViewBag.CustomerCode" disabled>*@
+                </div>
+                @Html.ValidationMessageFor(model => model.Masjid_Title, "", new { @class = "text-danger" })
+
+
+            </div>
+            <div class="col-sm-6">
+                <!-- text input -->
+                <div class="form-group">
+                    <label>Azkar Urdu Meaning:</label>
+                    @Html.EditorFor(model => model.Masjid_Descr, new { htmlAttributes = new { @placeholder = " Name", @class = "form-control" } })
+                    @*<input type="text"  class="form-control" placeholder="@ViewBag.CustomerCode" disabled>*@
+                </div>
+                @Html.ValidationMessageFor(model => model.Masjid_Title, "", new { @class = "text-danger" })
+
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <!-- text input -->
+                <div class="form-group">
                     <label>Count :</label>
-                    @Html.EditorFor(model => model.Masjid_Location, new { htmlAttributes = new { @placeholder = "Count", @class = "form-control" } })
+                    @Html.EditorFor(model => model.Masjid_Lat, new { htmlAttributes = new { @placeholder = "Count", @class = "form-control" } })
                     @*<input type="text"  class="form-control" placeholder="@ViewBag.CustomerCode" disabled>*@
                 </div>
                 @Html.ValidationMessageFor(model => model.Masjid_Location, "", new { @class = "text-danger" })

@@ -19,17 +19,6 @@
             <div class="col-sm-6">
                 <!-- text input -->
                 <div class="form-group">
-                    <label>Project Descr:</label>
-                    @Html.EditorFor(model => model.Masjid_Location, new { htmlAttributes = new { @placeholder = " DEscr", @class = "form-control" } })
-                    @*<input type="text"  class="form-control" placeholder="@ViewBag.CustomerCode" disabled>*@
-                </div>
-                @Html.ValidationMessageFor(model => model.Masjid_Location, "", new { @class = "text-danger" })
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-6">
-                <!-- text input -->
-                <div class="form-group">
                     <label>Date:</label>
                     @Html.EditorFor(model => model.DateCreated, new { htmlAttributes = new { @placeholder = "Lat", @class = "form-control" } })
                     @*<input type="text"  class="form-control" placeholder="@ViewBag.CustomerCode" disabled>*@
@@ -38,12 +27,15 @@
 
 
             </div>
-            <div class="col-sm-6">
+        </div>
+        <div class="row">
+            
+            <div class="col-sm-12">
                 <!-- text input -->
                 <div class="form-group">
                     <label>Details:</label>
-                    @Html.EditorFor(model => model.Masjid_Descr, new { htmlAttributes = new { @placeholder = "Details", @class = "form-control" } })
-                    @*<input type="text"  class="form-control" placeholder="@ViewBag.CustomerCode" disabled>*@
+                    @Html.TextAreaFor(model => model.Masjid_Descr, new { @area = "12", @class = "form-control" })  
+                                    
                 </div>
                 @Html.ValidationMessageFor(model => model.Masjid_Lon, "", new { @class = "text-danger" })
 

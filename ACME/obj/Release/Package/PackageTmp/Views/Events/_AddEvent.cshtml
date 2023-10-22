@@ -52,6 +52,21 @@
             </div>
             @Html.HiddenFor(model => model.MAsjid_ID)
         </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <!-- text input -->
+                <div class="form-group">
+                    <label>Event Name in Urdu:</label>
+                    @Html.EditorFor(model => model.Masjid_Descr, new { htmlAttributes = new { @placeholder = " Location", @class = "form-control" } })
+                    @*@Html.TextAreaFor(model => model.Masjid_Descr, new { @area = "13", @class = "form-control" })*@
+                    @*<input type="text"  class="form-control" placeholder="@ViewBag.CustomerCode" disabled>*@
+                </div>
+                @Html.ValidationMessageFor(model => model.Masjid_Lat, "", new { @class = "text-danger" })
+
+
+            </div>
+            
+        </div>
 
                 <div class="row">
                     <div class="col-sm-6">

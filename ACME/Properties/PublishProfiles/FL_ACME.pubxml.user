@@ -11,16 +11,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/ACME.dll">
-      <publishTime>10/12/2023 00:21:50</publishTime>
+      <publishTime>10/22/2023 18:00:52</publishTime>
     </File>
     <File Include="bin/BLL.dll">
-      <publishTime>10/11/2023 00:02:50</publishTime>
+      <publishTime>10/22/2023 16:20:36</publishTime>
     </File>
     <File Include="bin/DAL.dll">
-      <publishTime>10/11/2023 00:02:50</publishTime>
+      <publishTime>10/22/2023 16:20:35</publishTime>
     </File>
     <File Include="bin/HrProperty.dll">
-      <publishTime>10/11/2023 00:02:49</publishTime>
+      <publishTime>10/22/2023 16:20:35</publishTime>
     </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
       <publishTime>10/10/2023 23:44:35</publishTime>
@@ -253,6 +253,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="dist/js/pages/dashboard3.js">
       <publishTime>10/10/2023 23:44:29</publishTime>
     </File>
+    <File Include="fonts/cancel-off.png">
+      <publishTime>10/20/2023 23:43:19</publishTime>
+    </File>
+    <File Include="fonts/cancel-on.png">
+      <publishTime>10/20/2023 23:43:19</publishTime>
+    </File>
     <File Include="fonts/glyphicons-halflings-regular.eot">
       <publishTime>10/10/2023 23:44:29</publishTime>
     </File>
@@ -264,6 +270,15 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="fonts/glyphicons-halflings-regular.woff">
       <publishTime>10/10/2023 23:44:29</publishTime>
+    </File>
+    <File Include="fonts/star-half.png">
+      <publishTime>10/20/2023 23:43:19</publishTime>
+    </File>
+    <File Include="fonts/star-off.png">
+      <publishTime>10/20/2023 23:43:19</publishTime>
+    </File>
+    <File Include="fonts/star-on.png">
+      <publishTime>10/20/2023 23:43:19</publishTime>
     </File>
     <File Include="Global.asax">
       <publishTime>10/10/2023 23:44:28</publishTime>
@@ -4534,6 +4549,45 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="plugins/raphael/webpack.config.js">
       <publishTime>10/10/2023 23:44:35</publishTime>
     </File>
+    <File Include="plugins/raty/fonts/raty.eot">
+      <publishTime>10/20/2023 23:43:19</publishTime>
+    </File>
+    <File Include="plugins/raty/fonts/raty.svg">
+      <publishTime>10/20/2023 23:43:19</publishTime>
+    </File>
+    <File Include="plugins/raty/fonts/raty.ttf">
+      <publishTime>10/20/2023 23:43:19</publishTime>
+    </File>
+    <File Include="plugins/raty/fonts/raty.woff">
+      <publishTime>10/20/2023 23:43:19</publishTime>
+    </File>
+    <File Include="plugins/raty/images/cancel-off.png">
+      <publishTime>10/20/2023 23:43:19</publishTime>
+    </File>
+    <File Include="plugins/raty/images/cancel-on.png">
+      <publishTime>10/20/2023 23:43:19</publishTime>
+    </File>
+    <File Include="plugins/raty/images/star-half.png">
+      <publishTime>10/20/2023 23:43:19</publishTime>
+    </File>
+    <File Include="plugins/raty/images/star-off.png">
+      <publishTime>10/20/2023 23:43:19</publishTime>
+    </File>
+    <File Include="plugins/raty/images/star-on.png">
+      <publishTime>10/20/2023 23:43:19</publishTime>
+    </File>
+    <File Include="plugins/raty/jquery.raty.css">
+      <publishTime>10/20/2023 23:43:19</publishTime>
+    </File>
+    <File Include="plugins/raty/jquery.raty.js">
+      <publishTime>10/22/2023 17:19:37</publishTime>
+    </File>
+    <File Include="plugins/raty/raty.css">
+      <publishTime>10/20/2023 23:43:24</publishTime>
+    </File>
+    <File Include="plugins/raty/raty.js">
+      <publishTime>10/20/2023 23:43:24</publishTime>
+    </File>
     <File Include="plugins/select2-bootstrap4-theme/select2-bootstrap4.css">
       <publishTime>10/10/2023 23:44:35</publishTime>
     </File>
@@ -5120,52 +5174,67 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/10/2023 23:44:28</publishTime>
     </File>
     <File Include="Views/Account/Login.cshtml">
-      <publishTime>10/10/2023 23:44:28</publishTime>
+      <publishTime>10/22/2023 16:39:42</publishTime>
     </File>
     <File Include="Views/Article/Article.cshtml">
-      <publishTime>10/12/2023 00:19:24</publishTime>
+      <publishTime>10/22/2023 16:18:45</publishTime>
     </File>
     <File Include="Views/Article/_AddArticle.cshtml">
       <publishTime>10/12/2023 00:20:34</publishTime>
     </File>
     <File Include="Views/Azkar/Azkar.cshtml">
-      <publishTime>10/12/2023 00:16:19</publishTime>
+      <publishTime>10/22/2023 12:58:18</publishTime>
     </File>
     <File Include="Views/Azkar/_AddAzkar.cshtml">
-      <publishTime>10/10/2023 23:59:54</publishTime>
+      <publishTime>10/22/2023 14:46:41</publishTime>
     </File>
     <File Include="Views/Dashboard/Dashboard.cshtml">
       <publishTime>10/10/2023 23:44:28</publishTime>
     </File>
     <File Include="Views/Events/Events.cshtml">
-      <publishTime>10/12/2023 00:05:49</publishTime>
+      <publishTime>10/22/2023 14:31:14</publishTime>
     </File>
     <File Include="Views/Events/_AddEvent.cshtml">
-      <publishTime>10/12/2023 00:04:38</publishTime>
+      <publishTime>10/22/2023 14:33:35</publishTime>
     </File>
     <File Include="Views/Masjid/AddMasjid.cshtml">
-      <publishTime>10/11/2023 23:31:30</publishTime>
+      <publishTime>10/22/2023 17:20:26</publishTime>
+    </File>
+    <File Include="Views/Masjid/cancel-off.png">
+      <publishTime>10/20/2023 23:43:19</publishTime>
+    </File>
+    <File Include="Views/Masjid/cancel-on.png">
+      <publishTime>10/20/2023 23:43:19</publishTime>
     </File>
     <File Include="Views/Masjid/Masjid.cshtml">
-      <publishTime>10/11/2023 23:57:54</publishTime>
+      <publishTime>10/22/2023 17:01:02</publishTime>
+    </File>
+    <File Include="Views/Masjid/star-half.png">
+      <publishTime>10/20/2023 23:43:19</publishTime>
+    </File>
+    <File Include="Views/Masjid/star-off.png">
+      <publishTime>10/20/2023 23:43:19</publishTime>
+    </File>
+    <File Include="Views/Masjid/star-on.png">
+      <publishTime>10/20/2023 23:43:19</publishTime>
     </File>
     <File Include="Views/Namaz/Namaz.cshtml">
-      <publishTime>10/11/2023 23:57:26</publishTime>
+      <publishTime>10/22/2023 14:36:59</publishTime>
     </File>
     <File Include="Views/Namaz/_AddNamaz.cshtml">
-      <publishTime>10/11/2023 16:54:42</publishTime>
+      <publishTime>10/22/2023 14:44:00</publishTime>
     </File>
     <File Include="Views/Projects/Projects.cshtml">
-      <publishTime>10/12/2023 00:11:05</publishTime>
+      <publishTime>10/22/2023 13:46:20</publishTime>
     </File>
     <File Include="Views/Projects/_AddProjects.cshtml">
-      <publishTime>10/12/2023 00:12:32</publishTime>
+      <publishTime>10/22/2023 14:01:51</publishTime>
     </File>
     <File Include="Views/Shared/_HEADER.cshtml">
       <publishTime>10/10/2023 23:44:28</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>10/11/2023 23:34:53</publishTime>
+      <publishTime>10/22/2023 17:04:31</publishTime>
     </File>
     <File Include="Views/Shared/_SideBar.cshtml">
       <publishTime>10/12/2023 00:21:34</publishTime>

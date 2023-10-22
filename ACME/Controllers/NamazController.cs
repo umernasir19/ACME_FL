@@ -16,10 +16,22 @@ namespace ACME.Controllers
         }
 
 
-        public ActionResult AddNamaz()
+        public ActionResult AddNamaz(int? id)
         {
-            FL_MASJID objflmsjd = new FL_MASJID();
-            return PartialView("_AddNamaz", objflmsjd);
+            FL_MASJID objmsjidprop = new FL_MASJID();
+            if (id > 0)
+            {
+                objmsjidprop.MAsjid_ID = 1;
+                objmsjidprop.Masjid_Location = "";
+                objmsjidprop.Masjid_Title = "Fajar namaz";
+                objmsjidprop.Masjid_Lat = Convert.ToDecimal(1.2);
+                objmsjidprop.Masjid_Lon = Convert.ToDecimal(1.2);
+                objmsjidprop.Masjid_Descr = "Description Of Masjid";
+                objmsjidprop.Masjid_Location = "New York";
+                objmsjidprop.Rating = Convert.ToDecimal(4);
+
+            }
+            return PartialView("_AddNamaz", objmsjidprop);
         }
     }
 }

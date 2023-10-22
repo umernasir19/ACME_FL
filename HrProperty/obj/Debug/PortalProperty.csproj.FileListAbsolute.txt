@@ -22,3 +22,4 @@ C:\Users\umer.nasir.AKU\Desktop\UMER\FL\ACME_FL\HrProperty\bin\Debug\HrProperty.
 C:\Users\umer.nasir.AKU\Desktop\UMER\FL\ACME_FL\HrProperty\bin\Debug\HrProperty.pdb
 C:\Users\umer.nasir.AKU\Desktop\UMER\FL\ACME_FL\HrProperty\obj\Debug\HrProperty.dll
 C:\Users\umer.nasir.AKU\Desktop\UMER\FL\ACME_FL\HrProperty\obj\Debug\HrProperty.pdb
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\ACME_FL\HrProperty\obj\Debug\PortalProperty.csprojResolveAssemblyReference.cache

@@ -2,6 +2,7 @@
 @{
     Layout = null;
 }
+
 <div class="card-body">
     @*<form role="form" id="formaddtype">*@
     @using (Ajax.BeginForm("AddUpdate", "Masjid", FormMethod.Post, new AjaxOptions { OnSuccess = "OnSuccess", OnFailure = "OnFailure" }))
@@ -53,6 +54,32 @@
                 </div>
 
                 <div class="row">
+                    <div class="col-sm-12">
+                        <!-- text input -->
+                        <div class="form-group">
+                            <label>Masjid Description:</label>
+                            @Html.TextAreaFor(model => model.Masjid_Descr, new {@area="13", @class = "form-control" }) 
+                            @*<input type="text"  class="form-control" placeholder="@ViewBag.CustomerCode" disabled>*@
+                        </div>
+                        @Html.ValidationMessageFor(model => model.Masjid_Location, "", new { @class = "text-danger" })
+
+
+
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div id="star" class="col-sm-6">
+                        <!-- text input -->
+                        <div class="form-group">
+                            <label>Masjid Rating:</label>
+                            <div class="demo"></div>
+                        </div>
+                    
+
+
+
+                    </div>
                     <div class="col-sm-6">
                         <!-- text input -->
                         <div class="form-group">
@@ -85,6 +112,7 @@
 
         </div>
 
+
 <script>
     $("#btnsavemasjid").click(function () {
         Command: toastr["success"]("success", "Saved")
@@ -108,4 +136,14 @@
         }
         window.location.href = "/Masjid/Masjid";
     });
+
+  
+        // load whatever you need here
+        $('.demo').raty({
+            path: '/fonts'
+        });
+    
+
+    
+
 </script>

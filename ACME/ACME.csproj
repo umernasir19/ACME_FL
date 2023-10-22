@@ -162,7 +162,12 @@
     <Content Include="dist\js\pages\dashboard.js" />
     <Content Include="dist\js\pages\dashboard2.js" />
     <Content Include="dist\js\pages\dashboard3.js" />
+    <Content Include="fonts\cancel-off.png" />
+    <Content Include="fonts\cancel-on.png" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\star-half.png" />
+    <Content Include="fonts\star-off.png" />
+    <Content Include="fonts\star-on.png" />
     <Content Include="Global.asax" />
     <Content Include="plugins\bootstrap-colorpicker\css\bootstrap-colorpicker.css" />
     <Content Include="plugins\bootstrap-colorpicker\css\bootstrap-colorpicker.min.css" />
@@ -1503,6 +1508,16 @@
     <Content Include="plugins\raphael\raphael.no-deps.js" />
     <Content Include="plugins\raphael\raphael.no-deps.min.js" />
     <Content Include="plugins\raphael\webpack.config.js" />
+    <Content Include="plugins\raty\fonts\raty.svg" />
+    <Content Include="plugins\raty\images\cancel-off.png" />
+    <Content Include="plugins\raty\images\cancel-on.png" />
+    <Content Include="plugins\raty\images\star-half.png" />
+    <Content Include="plugins\raty\images\star-off.png" />
+    <Content Include="plugins\raty\images\star-on.png" />
+    <Content Include="plugins\raty\jquery.raty.css" />
+    <Content Include="plugins\raty\jquery.raty.js" />
+    <Content Include="plugins\raty\raty.css" />
+    <Content Include="plugins\raty\raty.js" />
     <Content Include="plugins\select2-bootstrap4-theme\select2-bootstrap4.css" />
     <Content Include="plugins\select2-bootstrap4-theme\select2-bootstrap4.min.css" />
     <Content Include="plugins\select2\css\select2.css" />
@@ -1780,11 +1795,19 @@
     <Content Include="plugins\sweetalert2-theme-bootstrap-4\package.json" />
     <Content Include="plugins\sweetalert2-theme-bootstrap-4\README.md" />
     <Content Include="plugins\toastr\toastr.js.map" />
+    <Content Include="plugins\raty\fonts\raty.eot" />
+    <Content Include="plugins\raty\fonts\raty.ttf" />
+    <Content Include="plugins\raty\fonts\raty.woff" />
     <None Include="Properties\PublishProfiles\FL_ACME.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Views\Masjid\cancel-off.png" />
+    <Content Include="Views\Masjid\cancel-on.png" />
+    <Content Include="Views\Masjid\star-half.png" />
+    <Content Include="Views\Masjid\star-off.png" />
+    <Content Include="Views\Masjid\star-on.png" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -1807,6 +1830,7 @@
     <Compile Include="Controllers\NamazController.cs" />
     <Compile Include="Controllers\NewsController.cs" />
     <Compile Include="Controllers\ProjectsController.cs" />
+    <Compile Include="Controllers\SpecialDateController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -1836,6 +1860,10 @@
     <Content Include="Views\Projects\Projects.cshtml" />
     <Content Include="Views\Article\Article.cshtml" />
     <Content Include="Views\Article\_AddArticle.cshtml" />
+    <Content Include="Views\News\News.cshtml" />
+    <Content Include="Views\News\_AddNews.cshtml" />
+    <Content Include="Views\SpecialDate\SpecialDate.cshtml" />
+    <Content Include="Views\SpecialDate\_AddSpecialDate.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -1847,7 +1875,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
     <Folder Include="Views\Base\" />
-    <Folder Include="Views\News\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BLL\BLL.csproj">

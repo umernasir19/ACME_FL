@@ -52,7 +52,7 @@
                                 <td>
                                     <div class="row col-sm-12">
                                         <div class="col-sm-6">
-                                            <a href="#" class="text-info" onclick="ShowProduct('ProductId')"><i class="fa fa-eye"></i></a>
+                                            <a href="#" class="text-info" onclick="ViewEdit('ProductId')"><i class="fa fa-eye"></i></a>
                                         </div>
 
                                         <div class="col-sm-6">
@@ -73,7 +73,7 @@
                                 <td>
                                     <div class="row col-sm-12">
                                         <div class="col-sm-6">
-                                            <a href="#" class="text-info" onclick="ShowProduct('ProductId')"><i class="fa fa-eye"></i></a>
+                                            <a href="#" class="text-info" onclick="ViewEdit('ProductId')"><i class="fa fa-eye"></i></a>
                                         </div>
 
                                         <div class="col-sm-6">
@@ -94,7 +94,7 @@
                                 <td>
                                     <div class="row col-sm-12">
                                         <div class="col-sm-6">
-                                            <a href="#" class="text-info" onclick="ShowProduct('ProductId')"><i class="fa fa-eye"></i></a>
+                                            <a href="#" class="text-info" onclick="ViewEdit('ProductId')"><i class="fa fa-eye"></i></a>
                                         </div>
 
                                         <div class="col-sm-6">
@@ -115,7 +115,7 @@
                                 <td>
                                     <div class="row col-sm-12">
                                         <div class="col-sm-6">
-                                            <a href="#" class="text-info" onclick="ShowProduct('ProductId')"><i class="fa fa-eye"></i></a>
+                                            <a href="#" class="text-info" onclick="ViewEdit('ProductId')"><i class="fa fa-eye"></i></a>
                                         </div>
 
                                         <div class="col-sm-6">
@@ -133,7 +133,7 @@
                                 <td>
                                     <div class="row col-sm-12">
                                         <div class="col-sm-6">
-                                            <a href="#" class="text-info" onclick="ShowProduct('ProductId')"><i class="fa fa-eye"></i></a>
+                                            <a href="#" class="text-info" onclick="ViewEdit('ProductId')"><i class="fa fa-eye"></i></a>
                                         </div>
 
                                         <div class="col-sm-6">
@@ -151,7 +151,7 @@
                                 <td>
                                     <div class="row col-sm-12">
                                         <div class="col-sm-6">
-                                            <a href="#" class="text-info" onclick="ShowProduct('ProductId')"><i class="fa fa-eye"></i></a>
+                                            <a href="#" class="text-info" onclick="ViewEdit('ProductId')"><i class="fa fa-eye"></i></a>
                                         </div>
 
                                         <div class="col-sm-6">
@@ -169,7 +169,7 @@
                                 <td>
                                     <div class="row col-sm-12">
                                         <div class="col-sm-6">
-                                            <a href="#" class="text-info" onclick="ShowProduct('ProductId')"><i class="fa fa-eye"></i></a>
+                                            <a href="#" class="text-info" onclick="ViewEdit('ProductId')"><i class="fa fa-eye"></i></a>
                                         </div>
 
                                         <div class="col-sm-6">
@@ -187,7 +187,7 @@
                                 <td>
                                     <div class="row col-sm-12">
                                         <div class="col-sm-6">
-                                            <a href="#" class="text-info" onclick="ShowProduct('ProductId')"><i class="fa fa-eye"></i></a>
+                                            <a href="#" class="text-info" onclick="ViewEdit('ProductId')"><i class="fa fa-eye"></i></a>
                                         </div>
 
                                         <div class="col-sm-6">
@@ -264,6 +264,18 @@
             $('#ConfirmModal').show();
         }
 
+        function ViewEdit(ID) {
+            //showLoading();
+            var url = "/Azkar/AddAzkar?Id=" + 1;
 
+            $("#azkaradmodelbody").load(url, function (e) {
+                var id = $('#MAsjid_ID').val();
+                if (id > 0) {
+                    $('#btnsavemasjid').html("update ");
+                }
+                $("#AddazkarModel").modal("show");
+                // hideLoading();
+            });
+        }
     </script>
 }
