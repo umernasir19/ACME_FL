@@ -43,7 +43,44 @@
             </div>
             @Html.HiddenFor(model => model.MAsjid_ID)
         </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <!-- text input -->
+                <div class="form-group">
+                    <label>Event Link For Facebook: <i class="fab fa-facebook-f fa-2x" style="color: #3b5998;"></i></label>
+                    @Html.EditorFor(model => model.Masjid_Descr, new { htmlAttributes = new { @placeholder = "Facebook Link", @class = "form-control" } })
+                    @*@Html.TextAreaFor(model => model.Masjid_Descr, new { @area = "13", @class = "form-control" })*@
+                    @*<input type="text"  class="form-control" placeholder="@ViewBag.CustomerCode" disabled>*@
+                </div>
+                @Html.ValidationMessageFor(model => model.Masjid_Lat, "", new { @class = "text-danger" })
 
+
+            </div>
+            <div class="col-sm-4">
+                <!-- text input -->
+                <div class="form-group">
+                    <label>Event Link For Insta: <i class="fab fa-instagram fa-2x" style="color: #ac2bac;"></i></label>
+                    @Html.EditorFor(model => model.Masjid_Descr, new { htmlAttributes = new { @placeholder = "Insta Link", @class = "form-control" } })
+                    @*@Html.TextAreaFor(model => model.Masjid_Descr, new { @area = "13", @class = "form-control" })*@
+                    @*<input type="text"  class="form-control" placeholder="@ViewBag.CustomerCode" disabled>*@
+                </div>
+                @Html.ValidationMessageFor(model => model.Masjid_Lat, "", new { @class = "text-danger" })
+
+
+            </div>
+            <div class="col-sm-4">
+                <!-- text input -->
+                <div class="form-group">
+                    <label>Event Link for Youtube:<i class="fab fa-youtube fa-2x" style="color: #ed302f;"></i></label>
+                    @Html.EditorFor(model => model.Masjid_Descr, new { htmlAttributes = new { @placeholder = "Event Link", @class = "form-control" } })
+                    @*@Html.TextAreaFor(model => model.Masjid_Descr, new { @area = "13", @class = "form-control" })*@
+                    @*<input type="text"  class="form-control" placeholder="@ViewBag.CustomerCode" disabled>*@
+                </div>
+                @Html.ValidationMessageFor(model => model.Masjid_Lat, "", new { @class = "text-danger" })
+
+
+            </div>
+        </div>
                 <div class="row">
                     <div class="col-sm-6">
                         <!-- text input -->

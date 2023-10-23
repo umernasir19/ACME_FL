@@ -11,7 +11,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/ACME.dll">
-      <publishTime>10/22/2023 18:00:52</publishTime>
+      <publishTime>10/23/2023 00:54:46</publishTime>
     </File>
     <File Include="bin/BLL.dll">
       <publishTime>10/22/2023 16:20:36</publishTime>
@@ -5186,16 +5186,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/22/2023 12:58:18</publishTime>
     </File>
     <File Include="Views/Azkar/_AddAzkar.cshtml">
-      <publishTime>10/22/2023 14:46:41</publishTime>
+      <publishTime>10/22/2023 23:43:57</publishTime>
     </File>
     <File Include="Views/Dashboard/Dashboard.cshtml">
-      <publishTime>10/10/2023 23:44:28</publishTime>
+      <publishTime>10/23/2023 00:54:36</publishTime>
     </File>
     <File Include="Views/Events/Events.cshtml">
       <publishTime>10/22/2023 14:31:14</publishTime>
     </File>
     <File Include="Views/Events/_AddEvent.cshtml">
-      <publishTime>10/22/2023 14:33:35</publishTime>
+      <publishTime>10/24/2023 00:31:42</publishTime>
     </File>
     <File Include="Views/Masjid/AddMasjid.cshtml">
       <publishTime>10/22/2023 17:20:26</publishTime>
@@ -5219,16 +5219,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/20/2023 23:43:19</publishTime>
     </File>
     <File Include="Views/Namaz/Namaz.cshtml">
-      <publishTime>10/22/2023 14:36:59</publishTime>
+      <publishTime>10/23/2023 00:07:48</publishTime>
     </File>
     <File Include="Views/Namaz/_AddNamaz.cshtml">
-      <publishTime>10/22/2023 14:44:00</publishTime>
+      <publishTime>10/23/2023 00:08:59</publishTime>
+    </File>
+    <File Include="Views/News/News.cshtml">
+      <publishTime>10/23/2023 00:12:38</publishTime>
+    </File>
+    <File Include="Views/News/_AddNews.cshtml">
+      <publishTime>10/23/2023 00:16:56</publishTime>
     </File>
     <File Include="Views/Projects/Projects.cshtml">
       <publishTime>10/22/2023 13:46:20</publishTime>
     </File>
     <File Include="Views/Projects/_AddProjects.cshtml">
-      <publishTime>10/22/2023 14:01:51</publishTime>
+      <publishTime>10/24/2023 00:31:38</publishTime>
     </File>
     <File Include="Views/Shared/_HEADER.cshtml">
       <publishTime>10/10/2023 23:44:28</publishTime>
@@ -5237,7 +5243,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/22/2023 17:04:31</publishTime>
     </File>
     <File Include="Views/Shared/_SideBar.cshtml">
-      <publishTime>10/12/2023 00:21:34</publishTime>
+      <publishTime>10/23/2023 00:42:26</publishTime>
+    </File>
+    <File Include="Views/SpecialDate/SpecialDate.cshtml">
+      <publishTime>10/23/2023 00:46:12</publishTime>
+    </File>
+    <File Include="Views/SpecialDate/_AddSpecialDate.cshtml">
+      <publishTime>10/23/2023 00:47:51</publishTime>
     </File>
     <File Include="Views/web.config">
       <publishTime>10/10/2023 23:44:28</publishTime>
