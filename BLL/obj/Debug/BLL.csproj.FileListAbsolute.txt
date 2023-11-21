@@ -91,3 +91,12 @@ C:\Users\umer.nasir.AKU\Desktop\UMER\FL\ACME_FL\BLL\bin\Debug\HrProperty.pdb
 C:\Users\umer.nasir.AKU\Desktop\UMER\FL\ACME_FL\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
 C:\Users\umer.nasir.AKU\Desktop\UMER\FL\ACME_FL\BLL\obj\Debug\BLL.dll
 C:\Users\umer.nasir.AKU\Desktop\UMER\FL\ACME_FL\BLL\obj\Debug\BLL.pdb
+E:\Visual Studio Projects\FreeLance\REYAN\ACME_FL\BLL\bin\Debug\BLL.dll
+E:\Visual Studio Projects\FreeLance\REYAN\ACME_FL\BLL\bin\Debug\BLL.pdb
+E:\Visual Studio Projects\FreeLance\REYAN\ACME_FL\BLL\bin\Debug\DAL.dll
+E:\Visual Studio Projects\FreeLance\REYAN\ACME_FL\BLL\bin\Debug\HrProperty.dll
+E:\Visual Studio Projects\FreeLance\REYAN\ACME_FL\BLL\bin\Debug\DAL.pdb
+E:\Visual Studio Projects\FreeLance\REYAN\ACME_FL\BLL\bin\Debug\HrProperty.pdb
+E:\Visual Studio Projects\FreeLance\REYAN\ACME_FL\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\Visual Studio Projects\FreeLance\REYAN\ACME_FL\BLL\obj\Debug\BLL.dll
+E:\Visual Studio Projects\FreeLance\REYAN\ACME_FL\BLL\obj\Debug\BLL.pdb

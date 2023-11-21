@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Azkar_Property.cs" />
     <Compile Include="Models\FL_Masjid.cs" />
     <Compile Include="Models\LoginProperty.cs" />
     <Compile Include="Models\ParentChild.cs" />

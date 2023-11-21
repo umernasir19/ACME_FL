@@ -7,7 +7,7 @@ using System.Web.Mvc;
 
 namespace ACME.Controllers
 {
-    public class AzkarController : Controller
+    public class AzkarController : BaseController
     {
         // GET: Azkar
         public ActionResult Azkar()
@@ -15,22 +15,37 @@ namespace ACME.Controllers
             return View();
         }
 
-        public ActionResult AddAzkar(int? id)
+        public JsonResult AdUpdate(FormCollection objform)
         {
-            FL_MASJID objflmsjd = new FL_MASJID();
-            if (id > 0)
+            var model = new Azkar_Property();
+            UpdateModel<Azkar_Property>(model);
+            if (ModelState.IsValid)
             {
-                objflmsjd.MAsjid_ID = 1;
-                objflmsjd.Masjid_Location = "English meaning of this azkar is bjfbdak";
-                objflmsjd.Masjid_Title = "SubhanALLAH";
-                objflmsjd.Masjid_Lat = Convert.ToDecimal(1.2);
-                objflmsjd.Masjid_Lon = Convert.ToDecimal(1.2);
-                objflmsjd.Masjid_Descr = "Urdu Meaning";
-                objflmsjd.Masjid_Location = "New York";
-                objflmsjd.Rating = Convert.ToDecimal(4);
+                
+            }
+            else
+            {
 
             }
-            return PartialView("_AddAzkar", objflmsjd);
+            return Json("", JsonRequestBehavior.AllowGet);
+        }
+
+        public ActionResult AddAzkar(int? id)
+        {
+           Azkar_Property objazkar = new Azkar_Property();
+            if (id > 0)
+            {
+                //objflmsjd.MAsjid_ID = 1;
+                //objflmsjd.Masjid_Location = "English meaning of this azkar is bjfbdak";
+                //objflmsjd.Masjid_Title = "SubhanALLAH";
+                //objflmsjd.Masjid_Lat = Convert.ToDecimal(1.2);
+                //objflmsjd.Masjid_Lon = Convert.ToDecimal(1.2);
+                //objflmsjd.Masjid_Descr = "Urdu Meaning";
+                //objflmsjd.Masjid_Location = "New York";
+                //objflmsjd.Rating = Convert.ToDecimal(4);
+
+            }
+            return PartialView("_AddAzkar", objazkar);
         }
     }
 }

@@ -5,7 +5,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 
-namespace ACME.Controllers
+namespace ACME.Controllers_WebApi
 {
     public class BaseApiController : ApiController
     {
