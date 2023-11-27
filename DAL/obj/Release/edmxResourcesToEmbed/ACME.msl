@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FL_ACMEModelStoreContainer" CdmEntityContainer="FL_ACMEEntities">
+    <EntitySetMapping Name="FL_AZKAR">
+      <EntityTypeMapping TypeName="FL_ACMEModel.FL_AZKAR">
+        <MappingFragment StoreEntitySet="FL_AZKAR">
+          <ScalarProperty Name="Azkar_ID" ColumnName="Azkar_ID" />
+          <ScalarProperty Name="Azkar_Name" ColumnName="Azkar_Name" />
+          <ScalarProperty Name="Azkar_Arabic" ColumnName="Azkar_Arabic" />
+          <ScalarProperty Name="Azkar_Eng" ColumnName="Azkar_Eng" />
+          <ScalarProperty Name="Azkar_Urdu" ColumnName="Azkar_Urdu" />
+          <ScalarProperty Name="Azkar_Count" ColumnName="Azkar_Count" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FL_MASJID">
+      <EntityTypeMapping TypeName="FL_ACMEModel.FL_MASJID">
+        <MappingFragment StoreEntitySet="FL_MASJID">
+          <ScalarProperty Name="MAsjid_ID" ColumnName="MAsjid_ID" />
+          <ScalarProperty Name="Masjid_Title" ColumnName="Masjid_Title" />
+          <ScalarProperty Name="Masjid_Descr" ColumnName="Masjid_Descr" />
+          <ScalarProperty Name="Masjid_Location" ColumnName="Masjid_Location" />
+          <ScalarProperty Name="Masjid_Lat" ColumnName="Masjid_Lat" />
+          <ScalarProperty Name="Masjid_Lon" ColumnName="Masjid_Lon" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="FL_ACMEModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="InsertionDate" ColumnName="InsertionDate" />
+          <ScalarProperty Name="LastModified" ColumnName="LastModified" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetAllUsers" FunctionName="FL_ACMEModel.Store.sp_GetAllUsers">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="FL_ACMEModel.sp_GetAllUsers_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="InsertionDate" ColumnName="InsertionDate" />
+          <ScalarProperty Name="LastModified" ColumnName="LastModified" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetUserByIDPAss" FunctionName="FL_ACMEModel.Store.sp_GetUserByIDPAss">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="FL_ACMEModel.sp_GetUserByIDPAss_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="InsertionDate" ColumnName="InsertionDate" />
+          <ScalarProperty Name="LastModified" ColumnName="LastModified" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_Masjid_GetALL" FunctionName="FL_ACMEModel.Store.sp_Masjid_GetALL">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="FL_ACMEModel.sp_Masjid_GetALL_Result">
+          <ScalarProperty Name="MAsjid_ID" ColumnName="MAsjid_ID" />
+          <ScalarProperty Name="Masjid_Title" ColumnName="Masjid_Title" />
+          <ScalarProperty Name="Masjid_Descr" ColumnName="Masjid_Descr" />
+          <ScalarProperty Name="Masjid_Location" ColumnName="Masjid_Location" />
+          <ScalarProperty Name="Masjid_Lat" ColumnName="Masjid_Lat" />
+          <ScalarProperty Name="Masjid_Lon" ColumnName="Masjid_Lon" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

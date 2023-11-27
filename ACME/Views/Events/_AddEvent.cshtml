@@ -1,0 +1,128 @@
+﻿
+@model HrProperty.Models.FL_MASJID
+@{
+    Layout = null;
+}
+<div class="card-body">
+    @*<form role="form" id="formaddtype">*@
+    @using (Ajax.BeginForm("AddUpdate", "Masjid", FormMethod.Post, new AjaxOptions { OnSuccess = "OnSuccess", OnFailure = "OnFailure" }))
+    {
+        <div class="row">
+            <div class="col-sm-6">
+                <!-- text input -->
+                <div class="form-group">
+                    <label>Event Name:</label>
+                    @Html.EditorFor(model => model.Masjid_Title, new { htmlAttributes = new { @placeholder = " Name", @class = "form-control" } })
+                    @*<input type="text"  class="form-control" placeholder="@ViewBag.CustomerCode" disabled>*@
+                </div>
+                @Html.ValidationMessageFor(model => model.Masjid_Title, "", new { @class = "text-danger" })
+            </div>
+            <div class="col-sm-6">
+                <!-- text input -->
+                <div class="form-group">
+                    <label>Event Location:</label>
+                    @Html.EditorFor(model => model.Masjid_Location, new { htmlAttributes = new { @placeholder = " Location", @class = "form-control" } })
+                    @*<input type="text"  class="form-control" placeholder="@ViewBag.CustomerCode" disabled>*@
+                </div>
+                @Html.ValidationMessageFor(model => model.Masjid_Location, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <!-- text input -->
+                <div class="form-group">
+                    <label>Event Date Urdu:</label>
+                    @Html.EditorFor(model => model.DateCreated, new { htmlAttributes = new { @placeholder = "Lat", @class = "form-control" } })
+                    @*<input type="text"  class="form-control" placeholder="@ViewBag.CustomerCode" disabled>*@
+                </div>
+                @Html.ValidationMessageFor(model => model.Masjid_Lat, "", new { @class = "text-danger" })
+
+
+            </div>
+            <div class="col-sm-6">
+                <!-- text input -->
+                <div class="form-group">
+                    <label>Event Date Eng:</label>
+                    @Html.EditorFor(model => model.DateCreated, new { htmlAttributes = new { @placeholder = "Long", @class = "form-control" } })
+                    @*<input type="text"  class="form-control" placeholder="@ViewBag.CustomerCode" disabled>*@
+                </div>
+                @Html.ValidationMessageFor(model => model.Masjid_Lon, "", new { @class = "text-danger" })
+
+
+            </div>
+            @Html.HiddenFor(model => model.MAsjid_ID)
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <!-- text input -->
+                <div class="form-group">
+                    <label>Event Name in Urdu:</label>
+                    @Html.EditorFor(model => model.Masjid_Descr, new { htmlAttributes = new { @placeholder = " Location", @class = "form-control" } })
+                    @*@Html.TextAreaFor(model => model.Masjid_Descr, new { @area = "13", @class = "form-control" })*@
+                    @*<input type="text"  class="form-control" placeholder="@ViewBag.CustomerCode" disabled>*@
+                </div>
+                @Html.ValidationMessageFor(model => model.Masjid_Lat, "", new { @class = "text-danger" })
+
+
+            </div>
+            
+        </div>
+        
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <!-- text input -->
+                        <div class="form-group">
+                            <label>Upload Image:</label>
+                            @* @Html.TextBoxFor(model => model.f, new { htmlAttributes = new { @placeholder = "Lat", @class = "form-control" } })*@
+                            <input type="file" class="form-control" accept="image/*">
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+                <div class="card-footer justify-content-between">
+                    <div class="row col-md-12">
+
+                        <div class="col-md-12">
+                            <div class="float-right">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                @*<input type="submit" value="Submit" class="btn btn-primary" />*@
+                                <input type="button" value="save" id="btnsavemasjid" class="btn btn-primary" />
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+    }
+
+</div>
+
+<script>
+    $("#btnsavemasjid").click(function () {
+        Command: toastr["success"]("success", "Saved")
+
+        toastr.options = {
+            "closeButton": false,
+            "debug": false,
+            "newestOnTop": false,
+            "progressBar": true,
+            "positionClass": "toast-top-center",
+            "preventDuplicates": false,
+            "onclick": null,
+            "showDuration": "300",
+            "hideDuration": "1000",
+            "timeOut": "5000",
+            "extendedTimeOut": "1000",
+            "showEasing": "swing",
+            "hideEasing": "linear",
+            "showMethod": "fadeIn",
+            "hideMethod": "fadeOut"
+        }
+        window.location.href = "/Masjid/Masjid";
+    });
+</script>

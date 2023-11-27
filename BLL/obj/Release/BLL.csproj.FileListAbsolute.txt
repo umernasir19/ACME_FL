@@ -1,0 +1,88 @@
+D:\Umer\HrPortal\Project\BLL\bin\Release\BLL.dll
+D:\Umer\HrPortal\Project\BLL\bin\Release\BLL.pdb
+D:\Umer\HrPortal\Project\BLL\bin\Release\DAL.dll
+D:\Umer\HrPortal\Project\BLL\bin\Release\HrProperty.dll
+D:\Umer\HrPortal\Project\BLL\bin\Release\DAL.pdb
+D:\Umer\HrPortal\Project\BLL\bin\Release\HrProperty.pdb
+D:\Umer\HrPortal\Project\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
+D:\Umer\HrPortal\Project\BLL\obj\Release\BLL.dll
+D:\Umer\HrPortal\Project\BLL\obj\Release\BLL.pdb
+D:\Umer\HrPortal\HRPortalSystem\Project\BLL\bin\Release\BLL.dll
+D:\Umer\HrPortal\HRPortalSystem\Project\BLL\bin\Release\BLL.pdb
+D:\Umer\HrPortal\HRPortalSystem\Project\BLL\bin\Release\DAL.dll
+D:\Umer\HrPortal\HRPortalSystem\Project\BLL\bin\Release\HrProperty.dll
+D:\Umer\HrPortal\HRPortalSystem\Project\BLL\bin\Release\DAL.pdb
+D:\Umer\HrPortal\HRPortalSystem\Project\BLL\bin\Release\HrProperty.pdb
+D:\Umer\HrPortal\HRPortalSystem\Project\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
+D:\Umer\HrPortal\HRPortalSystem\Project\BLL\obj\Release\BLL.dll
+D:\Umer\HrPortal\HRPortalSystem\Project\BLL\obj\Release\BLL.pdb
+E:\Talha\Main Projects\HrPortal\BLL\bin\Release\BLL.dll
+E:\Talha\Main Projects\HrPortal\BLL\bin\Release\BLL.pdb
+E:\Talha\Main Projects\HrPortal\BLL\bin\Release\DAL.dll
+E:\Talha\Main Projects\HrPortal\BLL\bin\Release\HrProperty.dll
+E:\Talha\Main Projects\HrPortal\BLL\bin\Release\DAL.pdb
+E:\Talha\Main Projects\HrPortal\BLL\bin\Release\HrProperty.pdb
+E:\Talha\Main Projects\HrPortal\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
+E:\Talha\Main Projects\HrPortal\BLL\obj\Release\BLL.dll
+E:\Talha\Main Projects\HrPortal\BLL\obj\Release\BLL.pdb
+C:\AKU_DotNetProjects\ComplainPortal\BLL\bin\Release\BLL.dll
+C:\AKU_DotNetProjects\ComplainPortal\BLL\bin\Release\BLL.pdb
+C:\AKU_DotNetProjects\ComplainPortal\BLL\bin\Release\DAL.dll
+C:\AKU_DotNetProjects\ComplainPortal\BLL\bin\Release\HrProperty.dll
+C:\AKU_DotNetProjects\ComplainPortal\BLL\bin\Release\DAL.pdb
+C:\AKU_DotNetProjects\ComplainPortal\BLL\bin\Release\HrProperty.pdb
+C:\AKU_DotNetProjects\ComplainPortal\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
+C:\AKU_DotNetProjects\ComplainPortal\BLL\obj\Release\BLL.dll
+C:\AKU_DotNetProjects\ComplainPortal\BLL\obj\Release\BLL.pdb
+C:\AKU_DotNetProjects\FEEDBACK-PORTAL ROUTED\ComplainPortal\BLL\bin\Release\BLL.dll
+C:\AKU_DotNetProjects\FEEDBACK-PORTAL ROUTED\ComplainPortal\BLL\bin\Release\BLL.pdb
+C:\AKU_DotNetProjects\FEEDBACK-PORTAL ROUTED\ComplainPortal\BLL\bin\Release\DAL.dll
+C:\AKU_DotNetProjects\FEEDBACK-PORTAL ROUTED\ComplainPortal\BLL\bin\Release\HrProperty.dll
+C:\AKU_DotNetProjects\FEEDBACK-PORTAL ROUTED\ComplainPortal\BLL\bin\Release\DAL.pdb
+C:\AKU_DotNetProjects\FEEDBACK-PORTAL ROUTED\ComplainPortal\BLL\bin\Release\HrProperty.pdb
+C:\AKU_DotNetProjects\FEEDBACK-PORTAL ROUTED\ComplainPortal\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
+C:\AKU_DotNetProjects\FEEDBACK-PORTAL ROUTED\ComplainPortal\BLL\obj\Release\BLL.dll
+C:\AKU_DotNetProjects\FEEDBACK-PORTAL ROUTED\ComplainPortal\BLL\obj\Release\BLL.pdb
+C:\AKU_DotNetProjects\FEEDBACK-PORTAL Updated\ComplainPortal\BLL\bin\Release\BLL.dll
+C:\AKU_DotNetProjects\FEEDBACK-PORTAL Updated\ComplainPortal\BLL\bin\Release\BLL.pdb
+C:\AKU_DotNetProjects\FEEDBACK-PORTAL Updated\ComplainPortal\BLL\bin\Release\DAL.dll
+C:\AKU_DotNetProjects\FEEDBACK-PORTAL Updated\ComplainPortal\BLL\bin\Release\HrProperty.dll
+C:\AKU_DotNetProjects\FEEDBACK-PORTAL Updated\ComplainPortal\BLL\bin\Release\DAL.pdb
+C:\AKU_DotNetProjects\FEEDBACK-PORTAL Updated\ComplainPortal\BLL\bin\Release\HrProperty.pdb
+C:\AKU_DotNetProjects\FEEDBACK-PORTAL Updated\ComplainPortal\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
+C:\AKU_DotNetProjects\FEEDBACK-PORTAL Updated\ComplainPortal\BLL\obj\Release\BLL.dll
+C:\AKU_DotNetProjects\FEEDBACK-PORTAL Updated\ComplainPortal\BLL\obj\Release\BLL.pdb
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\BLL\bin\Release\BLL.dll
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\BLL\bin\Release\BLL.pdb
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\BLL\bin\Release\DAL.dll
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\BLL\bin\Release\HrProperty.dll
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\BLL\bin\Release\DAL.pdb
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\BLL\bin\Release\HrProperty.pdb
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\BLL\obj\Release\BLL.dll
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\BLL\obj\Release\BLL.pdb
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\ACME_FL\BLL\bin\Release\BLL.dll
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\ACME_FL\BLL\bin\Release\BLL.pdb
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\ACME_FL\BLL\bin\Release\DAL.dll
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\ACME_FL\BLL\bin\Release\HrProperty.dll
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\ACME_FL\BLL\bin\Release\DAL.pdb
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\ACME_FL\BLL\bin\Release\HrProperty.pdb
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\ACME_FL\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\ACME_FL\BLL\obj\Release\BLL.dll
+C:\Users\umer.nasir.AKU\Desktop\UMER\FL\ACME_FL\BLL\obj\Release\BLL.pdb
+E:\Visual Studio Projects\FreeLance\REYAN\ACME_FL\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
+E:\Visual Studio Projects\FreeLance\REYAN\ACME_FL\BLL\obj\Release\BLL.dll
+E:\Visual Studio Projects\FreeLance\REYAN\ACME_FL\BLL\obj\Release\BLL.pdb
+E:\Visual Studio Projects\FreeLance\REYAN\ACME_FL\BLL\bin\Release\BLL.dll
+E:\Visual Studio Projects\FreeLance\REYAN\ACME_FL\BLL\bin\Release\BLL.pdb
+E:\Visual Studio Projects\FreeLance\REYAN\ACME_FL\BLL\bin\Release\DAL.dll
+E:\Visual Studio Projects\FreeLance\REYAN\ACME_FL\BLL\bin\Release\HrProperty.dll
+E:\Visual Studio Projects\FreeLance\REYAN\ACME_FL\BLL\bin\Release\EntityFramework.dll
+E:\Visual Studio Projects\FreeLance\REYAN\ACME_FL\BLL\bin\Release\AutoMapper.dll
+E:\Visual Studio Projects\FreeLance\REYAN\ACME_FL\BLL\bin\Release\System.ValueTuple.dll
+E:\Visual Studio Projects\FreeLance\REYAN\ACME_FL\BLL\bin\Release\DAL.pdb
+E:\Visual Studio Projects\FreeLance\REYAN\ACME_FL\BLL\bin\Release\HrProperty.pdb
+E:\Visual Studio Projects\FreeLance\REYAN\ACME_FL\BLL\bin\Release\EntityFramework.xml
+E:\Visual Studio Projects\FreeLance\REYAN\ACME_FL\BLL\bin\Release\AutoMapper.pdb
+E:\Visual Studio Projects\FreeLance\REYAN\ACME_FL\BLL\bin\Release\AutoMapper.xml
+E:\Visual Studio Projects\FreeLance\REYAN\ACME_FL\BLL\bin\Release\System.ValueTuple.xml

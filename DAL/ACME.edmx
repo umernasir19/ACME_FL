@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="FL_ACMEModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="FL_AZKAR">
+          <Key>
+            <PropertyRef Name="Azkar_ID" />
+          </Key>
+          <Property Name="Azkar_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Azkar_Name" Type="varchar" MaxLength="200" Nullable="false" />
+          <Property Name="Azkar_Arabic" Type="varchar" MaxLength="2000" />
+          <Property Name="Azkar_Eng" Type="varchar" MaxLength="200" />
+          <Property Name="Azkar_Urdu" Type="varchar" MaxLength="200" />
+          <Property Name="Azkar_Count" Type="int" Nullable="false" />
+          <Property Name="Status" Type="bit" />
+          <Property Name="CreatedBy" Type="int" />
+          <Property Name="DateCreated" Type="datetime" />
+        </EntityType>
+        <EntityType Name="FL_MASJID">
+          <Key>
+            <PropertyRef Name="MAsjid_ID" />
+          </Key>
+          <Property Name="MAsjid_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Masjid_Title" Type="nvarchar" MaxLength="80" Nullable="false" />
+          <Property Name="Masjid_Descr" Type="text" />
+          <Property Name="Masjid_Location" Type="text" />
+          <Property Name="Masjid_Lat" Type="decimal" Precision="18" Scale="2" />
+          <Property Name="Masjid_Lon" Type="decimal" Precision="18" Scale="2" />
+          <Property Name="Status" Type="bit" />
+          <Property Name="DateCreated" Type="datetime" />
+          <Property Name="CreatedBy" Type="int" />
+        </EntityType>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="UserName" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Password" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Status" Type="varchar" MaxLength="10" />
+          <Property Name="InsertionDate" Type="datetime" Nullable="false" />
+          <Property Name="LastModified" Type="datetime" />
+        </EntityType>
+        <Function Name="sp_GetAllUsers" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="sp_GetUserByIDPAss" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="userid" Type="nvarchar" Mode="In" />
+          <Parameter Name="password" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="sp_Masjid_GetALL" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <EntityContainer Name="FL_ACMEModelStoreContainer">
+          <EntitySet Name="FL_AZKAR" EntityType="Self.FL_AZKAR" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="FL_MASJID" EntityType="Self.FL_MASJID" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="FL_ACMEModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="FL_AZKAR">
+          <Key>
+            <PropertyRef Name="Azkar_ID" />
+          </Key>
+          <Property Name="Azkar_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Azkar_Name" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Azkar_Arabic" Type="String" MaxLength="2000" FixedLength="false" Unicode="false" />
+          <Property Name="Azkar_Eng" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="Azkar_Urdu" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="Azkar_Count" Type="Int32" Nullable="false" />
+          <Property Name="Status" Type="Boolean" />
+          <Property Name="CreatedBy" Type="Int32" />
+          <Property Name="DateCreated" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="FL_MASJID">
+          <Key>
+            <PropertyRef Name="MAsjid_ID" />
+          </Key>
+          <Property Name="MAsjid_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Masjid_Title" Type="String" MaxLength="80" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Masjid_Descr" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="Masjid_Location" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="Masjid_Lat" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="Masjid_Lon" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="Status" Type="Boolean" />
+          <Property Name="DateCreated" Type="DateTime" Precision="3" />
+          <Property Name="CreatedBy" Type="Int32" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Status" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="InsertionDate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="LastModified" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityContainer Name="FL_ACMEEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="FL_AZKAR" EntityType="Self.FL_AZKAR" />
+          <EntitySet Name="FL_MASJID" EntityType="Self.FL_MASJID" />
+          <EntitySet Name="Users" EntityType="Self.User" />
+          <FunctionImport Name="sp_GetAllUsers" ReturnType="Collection(FL_ACMEModel.sp_GetAllUsers_Result)" />
+          <FunctionImport Name="sp_GetUserByIDPAss" ReturnType="Collection(FL_ACMEModel.sp_GetUserByIDPAss_Result)">
+            <Parameter Name="userid" Mode="In" Type="String" />
+            <Parameter Name="password" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="sp_Masjid_GetALL" ReturnType="Collection(FL_ACMEModel.sp_Masjid_GetALL_Result)" />
+        </EntityContainer>
+        <ComplexType Name="sp_GetAllUsers_Result">
+          <Property Type="Int32" Name="ID" Nullable="false" />
+          <Property Type="String" Name="UserName" Nullable="false" MaxLength="50" />
+          <Property Type="String" Name="Password" Nullable="false" MaxLength="50" />
+          <Property Type="String" Name="Status" Nullable="true" MaxLength="10" />
+          <Property Type="DateTime" Name="InsertionDate" Nullable="false" Precision="23" />
+          <Property Type="DateTime" Name="LastModified" Nullable="true" Precision="23" />
+        </ComplexType>
+        <ComplexType Name="sp_GetUserByIDPAss_Result">
+          <Property Type="Int32" Name="ID" Nullable="false" />
+          <Property Type="String" Name="UserName" Nullable="false" MaxLength="50" />
+          <Property Type="String" Name="Password" Nullable="false" MaxLength="50" />
+          <Property Type="String" Name="Status" Nullable="true" MaxLength="10" />
+          <Property Type="DateTime" Name="InsertionDate" Nullable="false" Precision="23" />
+          <Property Type="DateTime" Name="LastModified" Nullable="true" Precision="23" />
+        </ComplexType>
+        <ComplexType Name="sp_Masjid_GetALL_Result">
+          <Property Type="Int32" Name="MAsjid_ID" Nullable="false" />
+          <Property Type="String" Name="Masjid_Title" Nullable="false" MaxLength="80" />
+          <Property Type="String" Name="Masjid_Descr" Nullable="true" MaxLength="Max" />
+          <Property Type="String" Name="Masjid_Location" Nullable="true" MaxLength="Max" />
+          <Property Type="Decimal" Name="Masjid_Lat" Nullable="true" Precision="18" Scale="2" />
+          <Property Type="Decimal" Name="Masjid_Lon" Nullable="true" Precision="18" Scale="2" />
+          <Property Type="Boolean" Name="Status" Nullable="true" />
+          <Property Type="DateTime" Name="DateCreated" Nullable="true" Precision="23" />
+          <Property Type="Int32" Name="CreatedBy" Nullable="true" />
+        </ComplexType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="FL_ACMEModelStoreContainer" CdmEntityContainer="FL_ACMEEntities">
+          <EntitySetMapping Name="FL_AZKAR">
+            <EntityTypeMapping TypeName="FL_ACMEModel.FL_AZKAR">
+              <MappingFragment StoreEntitySet="FL_AZKAR">
+                <ScalarProperty Name="Azkar_ID" ColumnName="Azkar_ID" />
+                <ScalarProperty Name="Azkar_Name" ColumnName="Azkar_Name" />
+                <ScalarProperty Name="Azkar_Arabic" ColumnName="Azkar_Arabic" />
+                <ScalarProperty Name="Azkar_Eng" ColumnName="Azkar_Eng" />
+                <ScalarProperty Name="Azkar_Urdu" ColumnName="Azkar_Urdu" />
+                <ScalarProperty Name="Azkar_Count" ColumnName="Azkar_Count" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="FL_MASJID">
+            <EntityTypeMapping TypeName="FL_ACMEModel.FL_MASJID">
+              <MappingFragment StoreEntitySet="FL_MASJID">
+                <ScalarProperty Name="MAsjid_ID" ColumnName="MAsjid_ID" />
+                <ScalarProperty Name="Masjid_Title" ColumnName="Masjid_Title" />
+                <ScalarProperty Name="Masjid_Descr" ColumnName="Masjid_Descr" />
+                <ScalarProperty Name="Masjid_Location" ColumnName="Masjid_Location" />
+                <ScalarProperty Name="Masjid_Lat" ColumnName="Masjid_Lat" />
+                <ScalarProperty Name="Masjid_Lon" ColumnName="Masjid_Lon" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Users">
+            <EntityTypeMapping TypeName="FL_ACMEModel.User">
+              <MappingFragment StoreEntitySet="Users">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="InsertionDate" ColumnName="InsertionDate" />
+                <ScalarProperty Name="LastModified" ColumnName="LastModified" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="sp_GetAllUsers" FunctionName="FL_ACMEModel.Store.sp_GetAllUsers">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="FL_ACMEModel.sp_GetAllUsers_Result">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="InsertionDate" ColumnName="InsertionDate" />
+                <ScalarProperty Name="LastModified" ColumnName="LastModified" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="sp_GetUserByIDPAss" FunctionName="FL_ACMEModel.Store.sp_GetUserByIDPAss">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="FL_ACMEModel.sp_GetUserByIDPAss_Result">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="InsertionDate" ColumnName="InsertionDate" />
+                <ScalarProperty Name="LastModified" ColumnName="LastModified" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="sp_Masjid_GetALL" FunctionName="FL_ACMEModel.Store.sp_Masjid_GetALL">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="FL_ACMEModel.sp_Masjid_GetALL_Result">
+                <ScalarProperty Name="MAsjid_ID" ColumnName="MAsjid_ID" />
+                <ScalarProperty Name="Masjid_Title" ColumnName="Masjid_Title" />
+                <ScalarProperty Name="Masjid_Descr" ColumnName="Masjid_Descr" />
+                <ScalarProperty Name="Masjid_Location" ColumnName="Masjid_Location" />
+                <ScalarProperty Name="Masjid_Lat" ColumnName="Masjid_Lat" />
+                <ScalarProperty Name="Masjid_Lon" ColumnName="Masjid_Lon" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
